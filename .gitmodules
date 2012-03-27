@@ -1,0 +1,3 @@
+[submodule "TestGallery/Externals/GMGridView"]
+	path = TestGallery/Externals/GMGridView
+	url = git://github.com/gmoledina/GMGridView.git

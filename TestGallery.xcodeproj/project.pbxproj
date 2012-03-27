@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7F18AE1521B3F100A89C4E /* GMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F18A41521B3F100A89C4E /* GMGridView.m */; };
+		0F7F18AF1521B3F100A89C4E /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F18A61521B3F100A89C4E /* GMGridViewCell.m */; };
+		0F7F18B01521B3F100A89C4E /* GMGridViewLayoutStrategies.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F18A91521B3F100A89C4E /* GMGridViewLayoutStrategies.m */; };
+		0F7F18B11521B3F100A89C4E /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F18AB1521B3F100A89C4E /* UIGestureRecognizer+GMGridViewAdditions.m */; };
+		0F7F18B21521B3F100A89C4E /* UIView+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F18AD1521B3F100A89C4E /* UIView+GMGridViewAdditions.m */; };
+		0F8F51E915207F1500C30B60 /* DSGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F51E615207F1500C30B60 /* DSGalleryView.m */; };
+		0F8F51EA15207F1500C30B60 /* DSGalleryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F51E815207F1500C30B60 /* DSGalleryViewCell.m */; };
+		0F8F51ED1520816700C30B60 /* TGGalleryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F51EC1520816700C30B60 /* TGGalleryViewCell.m */; };
+		0F96E94A1514A5EE00E7EB06 /* TGPreviewMediaFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F96E9491514A5EE00E7EB06 /* TGPreviewMediaFileViewController.m */; };
+		0F9B50B51521844100892DF2 /* TGMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9B50B41521844100892DF2 /* TGMediaFile.m */; };
+		0F9B50B81521845400892DF2 /* TGAssetMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9B50B71521845400892DF2 /* TGAssetMediaFile.m */; };
+		0F9B50BB15218C6500892DF2 /* TGMediaAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9B50BA15218C6500892DF2 /* TGMediaAlbum.m */; };
+		0F9B50BE15218CAE00892DF2 /* TGAssetsGroupMediaAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9B50BD15218CAE00892DF2 /* TGAssetsGroupMediaAlbum.m */; };
+		0F9BFEDE1520405100EF94C9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9BFEDB1520404700EF94C9 /* MediaPlayer.framework */; };
+		0FA68A1C151F0BD0003E7605 /* TGMediaFileGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA68A1B151F0BD0003E7605 /* TGMediaFileGridViewCell.m */; };
+		0FAE3C371513CF7B00507214 /* TGGalleryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE3C361513CF7B00507214 /* TGGalleryModel.m */; };
+		0FF3032615136078002FC039 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF3032515136078002FC039 /* UIKit.framework */; };
+		0FF3032815136078002FC039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF3032715136078002FC039 /* Foundation.framework */; };
+		0FF3032A15136078002FC039 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF3032915136078002FC039 /* CoreGraphics.framework */; };
+		0FF3032C15136078002FC039 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF3032B15136078002FC039 /* CoreData.framework */; };
+		0FF3033215136078002FC039 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FF3033015136078002FC039 /* InfoPlist.strings */; };
+		0FF3033415136078002FC039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3033315136078002FC039 /* main.m */; };
+		0FF3034815136100002FC039 /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF30344151360FF002FC039 /* TGAppDelegate.m */; };
+		0FF3034C15136107002FC039 /* TestGallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3034A15136107002FC039 /* TestGallery.xcdatamodeld */; };
+		0FF3034F15136127002FC039 /* TGGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3034E15136127002FC039 /* TGGalleryViewController.m */; };
+		0FF30356151361E8002FC039 /* TGMediaAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF30355151361E7002FC039 /* TGMediaAlbumsViewController.m */; };
+		0FF3035B151362A0002FC039 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF3035915136292002FC039 /* QuartzCore.framework */; };
+		0FF3035C151362A2002FC039 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF303571513627D002FC039 /* AssetsLibrary.framework */; };
+		0FF30360151363D1002FC039 /* TGMediaAlbumsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3035F151363D1002FC039 /* TGMediaAlbumsModel.m */; };
+		0FF30363151363E4002FC039 /* TGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF30362151363E4002FC039 /* TGModel.m */; };
+		0FF3036A15137772002FC039 /* TGMediaFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3036915137771002FC039 /* TGMediaFilesViewController.m */; };
+		0FF3036D151377E5002FC039 /* TGMediaFilesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3036C151377E3002FC039 /* TGMediaFilesModel.m */; };
+		0FF3037A15139469002FC039 /* TGSelectedMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3037915139469002FC039 /* TGSelectedMediaFile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F7F18A21521B3F100A89C4E /* GMGridView-Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GMGridView-Constants.h"; path = "Externals/GMGridView/GMGridView/GMGridView-Constants.h"; sourceTree = "<group>"; };
+		0F7F18A31521B3F100A89C4E /* GMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMGridView.h; path = Externals/GMGridView/GMGridView/GMGridView.h; sourceTree = "<group>"; };
+		0F7F18A41521B3F100A89C4E /* GMGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMGridView.m; path = Externals/GMGridView/GMGridView/GMGridView.m; sourceTree = "<group>"; };
+		0F7F18A51521B3F100A89C4E /* GMGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMGridViewCell.h; path = Externals/GMGridView/GMGridView/GMGridViewCell.h; sourceTree = "<group>"; };
+		0F7F18A61521B3F100A89C4E /* GMGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMGridViewCell.m; path = Externals/GMGridView/GMGridView/GMGridViewCell.m; sourceTree = "<group>"; };
+		0F7F18A71521B3F100A89C4E /* GMGridViewCell+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GMGridViewCell+Extended.h"; path = "Externals/GMGridView/GMGridView/GMGridViewCell+Extended.h"; sourceTree = "<group>"; };
+		0F7F18A81521B3F100A89C4E /* GMGridViewLayoutStrategies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMGridViewLayoutStrategies.h; path = Externals/GMGridView/GMGridView/GMGridViewLayoutStrategies.h; sourceTree = "<group>"; };
+		0F7F18A91521B3F100A89C4E /* GMGridViewLayoutStrategies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMGridViewLayoutStrategies.m; path = Externals/GMGridView/GMGridView/GMGridViewLayoutStrategies.m; sourceTree = "<group>"; };
+		0F7F18AA1521B3F100A89C4E /* UIGestureRecognizer+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+GMGridViewAdditions.h"; path = "Externals/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		0F7F18AB1521B3F100A89C4E /* UIGestureRecognizer+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+GMGridViewAdditions.m"; path = "Externals/GMGridView/GMGridView/UIGestureRecognizer+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		0F7F18AC1521B3F100A89C4E /* UIView+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GMGridViewAdditions.h"; path = "Externals/GMGridView/GMGridView/UIView+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		0F7F18AD1521B3F100A89C4E /* UIView+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GMGridViewAdditions.m"; path = "Externals/GMGridView/GMGridView/UIView+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		0F8F51E515207F1500C30B60 /* DSGalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGalleryView.h; sourceTree = "<group>"; };
+		0F8F51E615207F1500C30B60 /* DSGalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGalleryView.m; sourceTree = "<group>"; };
+		0F8F51E715207F1500C30B60 /* DSGalleryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGalleryViewCell.h; sourceTree = "<group>"; };
+		0F8F51E815207F1500C30B60 /* DSGalleryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGalleryViewCell.m; sourceTree = "<group>"; };
+		0F8F51EB1520816700C30B60 /* TGGalleryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGalleryViewCell.h; sourceTree = "<group>"; };
+		0F8F51EC1520816700C30B60 /* TGGalleryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGalleryViewCell.m; sourceTree = "<group>"; };
+		0F96E9481514A5EE00E7EB06 /* TGPreviewMediaFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPreviewMediaFileViewController.h; sourceTree = "<group>"; };
+		0F96E9491514A5EE00E7EB06 /* TGPreviewMediaFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPreviewMediaFileViewController.m; sourceTree = "<group>"; };
+		0F9B50B31521844100892DF2 /* TGMediaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaFile.h; sourceTree = "<group>"; };
+		0F9B50B41521844100892DF2 /* TGMediaFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaFile.m; sourceTree = "<group>"; };
+		0F9B50B61521845400892DF2 /* TGAssetMediaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAssetMediaFile.h; sourceTree = "<group>"; };
+		0F9B50B71521845400892DF2 /* TGAssetMediaFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAssetMediaFile.m; sourceTree = "<group>"; };
+		0F9B50B915218C6500892DF2 /* TGMediaAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAlbum.h; sourceTree = "<group>"; };
+		0F9B50BA15218C6500892DF2 /* TGMediaAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAlbum.m; sourceTree = "<group>"; };
+		0F9B50BC15218CAE00892DF2 /* TGAssetsGroupMediaAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAssetsGroupMediaAlbum.h; sourceTree = "<group>"; };
+		0F9B50BD15218CAE00892DF2 /* TGAssetsGroupMediaAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAssetsGroupMediaAlbum.m; sourceTree = "<group>"; };
+		0F9BFEDB1520404700EF94C9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0FA68A1A151F0BD0003E7605 /* TGMediaFileGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaFileGridViewCell.h; sourceTree = "<group>"; };
+		0FA68A1B151F0BD0003E7605 /* TGMediaFileGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaFileGridViewCell.m; sourceTree = "<group>"; };
+		0FAE3C351513CF7B00507214 /* TGGalleryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGGalleryModel.h; path = TestGallery/Classes/Model/TGGalleryModel.h; sourceTree = SOURCE_ROOT; };
+		0FAE3C361513CF7B00507214 /* TGGalleryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGGalleryModel.m; path = TestGallery/Classes/Model/TGGalleryModel.m; sourceTree = SOURCE_ROOT; };
+		0FF3032115136078002FC039 /* TestGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF3032515136078002FC039 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FF3032715136078002FC039 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FF3032915136078002FC039 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FF3032B15136078002FC039 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0FF3032F15136078002FC039 /* TestGallery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGallery-Info.plist"; sourceTree = "<group>"; };
+		0FF3033115136078002FC039 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FF3033315136078002FC039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FF3033515136078002FC039 /* TestGallery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestGallery-Prefix.pch"; sourceTree = "<group>"; };
+		0FF30343151360FF002FC039 /* TGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
+		0FF30344151360FF002FC039 /* TGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
+		0FF3034B15136107002FC039 /* TestGallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestGallery.xcdatamodel; sourceTree = "<group>"; };
+		0FF3034D15136127002FC039 /* TGGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGalleryViewController.h; sourceTree = "<group>"; };
+		0FF3034E15136127002FC039 /* TGGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGalleryViewController.m; sourceTree = "<group>"; };
+		0FF30354151361E6002FC039 /* TGMediaAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAlbumsViewController.h; sourceTree = "<group>"; };
+		0FF30355151361E7002FC039 /* TGMediaAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAlbumsViewController.m; sourceTree = "<group>"; };
+		0FF303571513627D002FC039 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0FF3035915136292002FC039 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0FF3035E151363D1002FC039 /* TGMediaAlbumsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaAlbumsModel.h; sourceTree = "<group>"; };
+		0FF3035F151363D1002FC039 /* TGMediaAlbumsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaAlbumsModel.m; sourceTree = "<group>"; };
+		0FF30361151363E4002FC039 /* TGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGModel.h; sourceTree = "<group>"; };
+		0FF30362151363E4002FC039 /* TGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGModel.m; sourceTree = "<group>"; };
+		0FF303681513776F002FC039 /* TGMediaFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaFilesViewController.h; sourceTree = "<group>"; };
+		0FF3036915137771002FC039 /* TGMediaFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaFilesViewController.m; sourceTree = "<group>"; };
+		0FF3036B151377E3002FC039 /* TGMediaFilesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaFilesModel.h; sourceTree = "<group>"; };
+		0FF3036C151377E3002FC039 /* TGMediaFilesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaFilesModel.m; sourceTree = "<group>"; };
+		0FF3037815139469002FC039 /* TGSelectedMediaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSelectedMediaFile.h; sourceTree = "<group>"; };
+		0FF3037915139469002FC039 /* TGSelectedMediaFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSelectedMediaFile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FF3031E15136078002FC039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF3035B151362A0002FC039 /* QuartzCore.framework in Frameworks */,
+				0FF3035C151362A2002FC039 /* AssetsLibrary.framework in Frameworks */,
+				0FF3032615136078002FC039 /* UIKit.framework in Frameworks */,
+				0FF3032815136078002FC039 /* Foundation.framework in Frameworks */,
+				0FF3032A15136078002FC039 /* CoreGraphics.framework in Frameworks */,
+				0FF3032C15136078002FC039 /* CoreData.framework in Frameworks */,
+				0F9BFEDE1520405100EF94C9 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8F51E415207F1500C30B60 /* DSGalleryView */ = {
+			isa = PBXGroup;
+			children = (
+				0F8F51E515207F1500C30B60 /* DSGalleryView.h */,
+				0F8F51E615207F1500C30B60 /* DSGalleryView.m */,
+				0F8F51E715207F1500C30B60 /* DSGalleryViewCell.h */,
+				0F8F51E815207F1500C30B60 /* DSGalleryViewCell.m */,
+			);
+			path = DSGalleryView;
+			sourceTree = "<group>";
+		};
+		0F9B50B21521841900892DF2 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0F9B50B31521844100892DF2 /* TGMediaFile.h */,
+				0F9B50B41521844100892DF2 /* TGMediaFile.m */,
+				0F9B50B61521845400892DF2 /* TGAssetMediaFile.h */,
+				0F9B50B71521845400892DF2 /* TGAssetMediaFile.m */,
+				0F9B50B915218C6500892DF2 /* TGMediaAlbum.h */,
+				0F9B50BA15218C6500892DF2 /* TGMediaAlbum.m */,
+				0F9B50BC15218CAE00892DF2 /* TGAssetsGroupMediaAlbum.h */,
+				0F9B50BD15218CAE00892DF2 /* TGAssetsGroupMediaAlbum.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		0FA689FF151F0752003E7605 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				0FA68A01151F0758003E7605 /* GMGridView */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		0FA68A01151F0758003E7605 /* GMGridView */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F18A21521B3F100A89C4E /* GMGridView-Constants.h */,
+				0F7F18A31521B3F100A89C4E /* GMGridView.h */,
+				0F7F18A41521B3F100A89C4E /* GMGridView.m */,
+				0F7F18A51521B3F100A89C4E /* GMGridViewCell.h */,
+				0F7F18A61521B3F100A89C4E /* GMGridViewCell.m */,
+				0F7F18A71521B3F100A89C4E /* GMGridViewCell+Extended.h */,
+				0F7F18A81521B3F100A89C4E /* GMGridViewLayoutStrategies.h */,
+				0F7F18A91521B3F100A89C4E /* GMGridViewLayoutStrategies.m */,
+				0F7F18AA1521B3F100A89C4E /* UIGestureRecognizer+GMGridViewAdditions.h */,
+				0F7F18AB1521B3F100A89C4E /* UIGestureRecognizer+GMGridViewAdditions.m */,
+				0F7F18AC1521B3F100A89C4E /* UIView+GMGridViewAdditions.h */,
+				0F7F18AD1521B3F100A89C4E /* UIView+GMGridViewAdditions.m */,
+			);
+			name = GMGridView;
+			sourceTree = "<group>";
+		};
+		0FF3031615136077002FC039 = {
+			isa = PBXGroup;
+			children = (
+				0FF3032D15136078002FC039 /* TestGallery */,
+				0FF3032415136078002FC039 /* Frameworks */,
+				0FF3032215136078002FC039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FF3032215136078002FC039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FF3032115136078002FC039 /* TestGallery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FF3032415136078002FC039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F9BFEDB1520404700EF94C9 /* MediaPlayer.framework */,
+				0FF3035915136292002FC039 /* QuartzCore.framework */,
+				0FF303571513627D002FC039 /* AssetsLibrary.framework */,
+				0FF3032515136078002FC039 /* UIKit.framework */,
+				0FF3032715136078002FC039 /* Foundation.framework */,
+				0FF3032915136078002FC039 /* CoreGraphics.framework */,
+				0FF3032B15136078002FC039 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FF3032D15136078002FC039 /* TestGallery */ = {
+			isa = PBXGroup;
+			children = (
+				0FA689FF151F0752003E7605 /* Externals */,
+				0FF30341151360FF002FC039 /* Classes */,
+				0FF3034915136107002FC039 /* Resources */,
+				0FF3032E15136078002FC039 /* Supporting Files */,
+			);
+			path = TestGallery;
+			sourceTree = "<group>";
+		};
+		0FF3032E15136078002FC039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF3032F15136078002FC039 /* TestGallery-Info.plist */,
+				0FF3033015136078002FC039 /* InfoPlist.strings */,
+				0FF3033315136078002FC039 /* main.m */,
+				0FF3033515136078002FC039 /* TestGallery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FF30341151360FF002FC039 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0FF30342151360FF002FC039 /* AppDelegate */,
+				0FF30345151360FF002FC039 /* Controllers */,
+				0FF30346151360FF002FC039 /* Model */,
+				0FF30347151360FF002FC039 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0FF30342151360FF002FC039 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0FF30343151360FF002FC039 /* TGAppDelegate.h */,
+				0FF30344151360FF002FC039 /* TGAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0FF30345151360FF002FC039 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FF3034D15136127002FC039 /* TGGalleryViewController.h */,
+				0FF3034E15136127002FC039 /* TGGalleryViewController.m */,
+				0FF30354151361E6002FC039 /* TGMediaAlbumsViewController.h */,
+				0FF30355151361E7002FC039 /* TGMediaAlbumsViewController.m */,
+				0FF303681513776F002FC039 /* TGMediaFilesViewController.h */,
+				0FF3036915137771002FC039 /* TGMediaFilesViewController.m */,
+				0F96E9481514A5EE00E7EB06 /* TGPreviewMediaFileViewController.h */,
+				0F96E9491514A5EE00E7EB06 /* TGPreviewMediaFileViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0FF30346151360FF002FC039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FF303671513651C002FC039 /* Entities */,
+				0F9B50B21521841900892DF2 /* Objects */,
+				0FF30361151363E4002FC039 /* TGModel.h */,
+				0FF30362151363E4002FC039 /* TGModel.m */,
+				0FAE3C351513CF7B00507214 /* TGGalleryModel.h */,
+				0FAE3C361513CF7B00507214 /* TGGalleryModel.m */,
+				0FF3035E151363D1002FC039 /* TGMediaAlbumsModel.h */,
+				0FF3035F151363D1002FC039 /* TGMediaAlbumsModel.m */,
+				0FF3036B151377E3002FC039 /* TGMediaFilesModel.h */,
+				0FF3036C151377E3002FC039 /* TGMediaFilesModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FF30347151360FF002FC039 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F8F51E415207F1500C30B60 /* DSGalleryView */,
+				0F8F51EB1520816700C30B60 /* TGGalleryViewCell.h */,
+				0F8F51EC1520816700C30B60 /* TGGalleryViewCell.m */,
+				0FA68A1A151F0BD0003E7605 /* TGMediaFileGridViewCell.h */,
+				0FA68A1B151F0BD0003E7605 /* TGMediaFileGridViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0FF3034915136107002FC039 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FF3034A15136107002FC039 /* TestGallery.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0FF303671513651C002FC039 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0FF3037815139469002FC039 /* TGSelectedMediaFile.h */,
+				0FF3037915139469002FC039 /* TGSelectedMediaFile.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FF3032015136078002FC039 /* TestGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF3033E15136078002FC039 /* Build configuration list for PBXNativeTarget "TestGallery" */;
+			buildPhases = (
+				0FF3031D15136078002FC039 /* Sources */,
+				0FF3031E15136078002FC039 /* Frameworks */,
+				0FF3031F15136078002FC039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGallery;
+			productName = TestGallery;
+			productReference = 0FF3032115136078002FC039 /* TestGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FF3031815136077002FC039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0FF3031B15136077002FC039 /* Build configuration list for PBXProject "TestGallery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FF3031615136077002FC039;
+			productRefGroup = 0FF3032215136078002FC039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FF3032015136078002FC039 /* TestGallery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FF3031F15136078002FC039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF3033215136078002FC039 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FF3031D15136078002FC039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF3033415136078002FC039 /* main.m in Sources */,
+				0FF3034815136100002FC039 /* TGAppDelegate.m in Sources */,
+				0FF3034C15136107002FC039 /* TestGallery.xcdatamodeld in Sources */,
+				0FF3034F15136127002FC039 /* TGGalleryViewController.m in Sources */,
+				0FF30356151361E8002FC039 /* TGMediaAlbumsViewController.m in Sources */,
+				0FF30360151363D1002FC039 /* TGMediaAlbumsModel.m in Sources */,
+				0FF30363151363E4002FC039 /* TGModel.m in Sources */,
+				0FF3036A15137772002FC039 /* TGMediaFilesViewController.m in Sources */,
+				0FF3036D151377E5002FC039 /* TGMediaFilesModel.m in Sources */,
+				0FF3037A15139469002FC039 /* TGSelectedMediaFile.m in Sources */,
+				0FAE3C371513CF7B00507214 /* TGGalleryModel.m in Sources */,
+				0F96E94A1514A5EE00E7EB06 /* TGPreviewMediaFileViewController.m in Sources */,
+				0FA68A1C151F0BD0003E7605 /* TGMediaFileGridViewCell.m in Sources */,
+				0F8F51E915207F1500C30B60 /* DSGalleryView.m in Sources */,
+				0F8F51EA15207F1500C30B60 /* DSGalleryViewCell.m in Sources */,
+				0F8F51ED1520816700C30B60 /* TGGalleryViewCell.m in Sources */,
+				0F9B50B51521844100892DF2 /* TGMediaFile.m in Sources */,
+				0F9B50B81521845400892DF2 /* TGAssetMediaFile.m in Sources */,
+				0F9B50BB15218C6500892DF2 /* TGMediaAlbum.m in Sources */,
+				0F9B50BE15218CAE00892DF2 /* TGAssetsGroupMediaAlbum.m in Sources */,
+				0F7F18AE1521B3F100A89C4E /* GMGridView.m in Sources */,
+				0F7F18AF1521B3F100A89C4E /* GMGridViewCell.m in Sources */,
+				0F7F18B01521B3F100A89C4E /* GMGridViewLayoutStrategies.m in Sources */,
+				0F7F18B11521B3F100A89C4E /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */,
+				0F7F18B21521B3F100A89C4E /* UIView+GMGridViewAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FF3033015136078002FC039 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF3033115136078002FC039 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FF3033C15136078002FC039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FF3033D15136078002FC039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FF3033F15136078002FC039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGallery/TestGallery-Prefix.pch";
+				INFOPLIST_FILE = "TestGallery/TestGallery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FF3034015136078002FC039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGallery/TestGallery-Prefix.pch";
+				INFOPLIST_FILE = "TestGallery/TestGallery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FF3031B15136077002FC039 /* Build configuration list for PBXProject "TestGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF3033C15136078002FC039 /* Debug */,
+				0FF3033D15136078002FC039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FF3033E15136078002FC039 /* Build configuration list for PBXNativeTarget "TestGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF3033F15136078002FC039 /* Debug */,
+				0FF3034015136078002FC039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0FF3034A15136107002FC039 /* TestGallery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0FF3034B15136107002FC039 /* TestGallery.xcdatamodel */,
+			);
+			currentVersion = 0FF3034B15136107002FC039 /* TestGallery.xcdatamodel */;
+			path = TestGallery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0FF3031815136077002FC039 /* Project object */;
+}
