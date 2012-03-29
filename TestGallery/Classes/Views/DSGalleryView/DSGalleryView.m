@@ -116,16 +116,19 @@
 	_firstVisibleCellIndex = 0;
 	_lastVisibleCellIndex = 0;
 	_didScrollFirstTime = YES;
+
+    self.contentSize = CGSizeZero; //reset content size
     
     // calculate and set scroll view content size
     NSInteger numberOfRows = [self numberOfCells];
-    CGFloat contentHeight = numberOfRows * self.cellSize.height;
-    CGFloat tmpOffset = 30; //TODO calculate offset depending on top of the first transformed cell
-    self.contentSize = CGSizeMake(self.contentSize.width, contentHeight + (2 * tmpOffset));
-    self.contentOffset = CGPointMake(0, -tmpOffset);
 
     if (numberOfRows > 0) {
         self.cellSize = [self.galleryDelegate galleryViewCellSize:self];
+        
+        CGFloat tmpOffset = 30; //TODO calculate offset depending on top of the first transformed cell
+        CGFloat contentHeight = numberOfRows * self.cellSize.height;
+        self.contentSize = CGSizeMake(self.contentSize.width, contentHeight + (2 * tmpOffset));
+        self.contentOffset = CGPointMake(0, -tmpOffset);
         
         [self scrollViewDidScroll:self];
     }
